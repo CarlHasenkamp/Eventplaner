@@ -1,0 +1,14 @@
+.inhalt_info_abgesendet {
+  font-size: 30px;
+  text-align: center;
+  margin-top: 300px;
+  margin-bottom: 100px;
+}
+
+.container_header_line_shorter {
+  position: absolute;
+  text-align: center;
+  width: 30%;
+  border-bottom: 1px solid #ffc000;
+  margin-top: 5px;
+}

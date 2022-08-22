@@ -1,0 +1,13 @@
+.inhalt_container_textfeld {
+  margin: 40px;
+}
+header {
+  margin-bottom: 60px;
+}
+.container_button {
+  margin: 35px;
+}
+.inhalt_conatiner_textfeld_input ::placeholder {
+  color: rgb(212, 212, 212);
+  font-weight: 900;
+}

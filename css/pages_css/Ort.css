@@ -1,0 +1,21 @@
+.inhalt_veranstaltunhstyp {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  margin-top: 30px;
+  color: #44546a;
+  font-family: "Roboto", sans-serif;
+}
+
+#typ {
+  margin-top: 10px;
+  border: 0px;
+  background-color: rgba(183, 182, 182, 0.258);
+  width: 300px;
+  height: 40px;
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+}

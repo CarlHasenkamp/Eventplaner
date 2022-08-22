@@ -1,0 +1,160 @@
+.container_moreoptions {
+  width: 100%;
+  margin-left: 30px;
+  /*padding-top: 10px;*/
+
+  display: none;
+  height: auto;
+}
+
+.flex_row_nowrap {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: start;
+  margin-bottom: 10px;
+}
+.input_num {
+  padding: 0.5% 1%;
+  box-sizing: border-box;
+  border: 1px solid rgb(92, 92, 92);
+  border-radius: 3px;
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+  margin-top: 5px;
+}
+.container_moreoptions_flex {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+}
+#live-chat {
+  margin-left: 38%;
+}
+.imput_num_label {
+  margin-top: 0.5%;
+}
+/*SELECT FILE START*/
+.file {
+  opacity: 0;
+  width: 0.1px;
+  height: 0.1px;
+  position: absolute;
+}
+.inhalt_checkbox_Flexcontainer:last-child {
+  border: none;
+}
+.input_file_data {
+  display: block;
+  position: relative;
+  width: 50%;
+  height: 40px;
+  border-radius: 5px;
+  background: #44546a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.2s ease-out;
+  margin-top: 5px;
+}
+
+.file-name {
+  font-size: 0.85rem;
+  color: #555;
+}
+
+input:hover + label,
+input:focus + label {
+  transform: scale(1.02);
+}
+
+/* Adding an outline to the label on focus */
+
+/*SELECT FILE ENDE*/
+/* START Shadow Container */
+.tontechnik {
+  margin-top: 50px;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  background-color: white;
+  margin-bottom: 0px;
+}
+.tontechnik h2 {
+  margin-top: 0;
+  padding: 10px;
+  background-color: #44546a;
+  color: white;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  margin-bottom: 0px;
+}
+.lichttechnik {
+  margin-top: 20px;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  background-color: white;
+}
+.lichttechnik h2 {
+  margin-top: 0;
+  padding: 10px;
+  background-color: #44546a;
+  color: white;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  margin-bottom: 0px;
+}
+
+.videotechnik {
+  margin-top: 20px;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  background-color: white;
+}
+
+.videotechnik h2 {
+  margin-top: 0;
+  padding: 10px;
+  background-color: #44546a;
+  color: white;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  margin-bottom: 0px;
+}
+
+.Vid {
+  padding: 10px;
+}
+
+.allgemeines {
+  margin-top: 20px;
+  margin-bottom: 50px;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  background-color: white;
+}
+
+.allgemeines h2 {
+  margin-top: 0;
+  padding: 10px;
+  background-color: #44546a;
+  color: white;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  margin-bottom: 0px;
+}
+/* ENDE Shadow Container */
+
+.Mikro {
+  padding: 10px;
+}
